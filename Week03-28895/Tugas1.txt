@@ -1,0 +1,31 @@
+1. Multidimensional Array merupakan array yang terdapat di dalam array lainnya.
+   Contoh array dua dimensi = int arr[][] = {{1,2,3}, {4,5,6}};
+
+2. - charAt() Mengembalikan karakter pada indeks (posisi) yang ditentukan.
+   - charCodeAt() Mengembalikan karakter Unicode pada indeks yang ditentukan.
+   - concat() Menggabungkan dua atau lebih string, dan mengembalikan string yang baru bergabung.
+   - endsWith() Memeriksa apakah string diakhiri dengan string spesifik / karakter tertentu.
+   - fromCharCode() Mengonversi nilai Unicode ke karakter.
+   - includes() Memeriksa apakah sebuah string berisi string / karakter yang ditentukan.
+   - indexOf() Mengembalikan posisi kejadian yang ditemukan pertama dari nilai yang ditentukan dalam sebuah string.
+   - lastIndexOf() Mengembalikan posisi kejadian terakhir yang ditemukan dari nilai yang ditentukan dalam sebuah string.
+   - localeCompare() Membandingkan dua senar di lokal saat ini.
+   - match() Mencari string untuk mencocokkan dengan ekspresi reguler, dan mengembalikan kecocokan tersebut.
+   - repeat() Mengembalikan string baru dengan sejumlah salinan dari string yang ada.
+   - replace() Mencari string untuk nilai tertentu, atau ekspresi reguler, dan mengembalikan string baru tempat nilai yang ditentukan untuk diganti.
+   - search() Mencari string untuk nilai tertentu, atau ekspresi reguler, dan mengembalikan posisi kecocokan.
+   - slice() Ekstrak bagian dari string dan mengembalikan string baru.
+   - split() Membagi string menjadi array of substring.
+   - startsWith() Memeriksa apakah sebuah string diawali dengan karakter yang ditentukan.
+   - substr() Ekstrak karakter dari sebuah string, dimulai dari posisi awal yang ditentukan, dan melalui jumlah karakter yang ditentukan.
+   - substring() Ekstrak karakter dari sebuah string, di antara dua indeks tertentu.
+   - toLocaleLowerCase() Mengonversi string ke huruf kecil, sesuai dengan lokasi host.
+   - toLocaleUpperCase() Mengonversi string ke huruf besar, sesuai dengan lokasi host.
+   - toLowerCase() Mengubah string menjadi huruf kecil.
+   - toString() Mengembalikan nilai objek String.
+   - toUpperCase() Mengonversi string menjadi huruf besar.
+   - trim() Menghapus spasi dari kedua ujung string.
+   - valueOf() Mengembalikan nilai primitif objek String.
+
+3. - String keadaanya akan tetap konstan dan tidak dapat diubah untuk membuat kode yang sederhana dan diandalkan.
+   - Aman untuk melakukan multithreading dan String tunggal dapat di share pada berbagai thread-thread yang berbeda.
